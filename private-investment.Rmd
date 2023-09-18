@@ -1,0 +1,192 @@
+---
+title: "Impact of Private Investment"
+author: "Myung Eun Hyeon"
+date: "`r Sys.Date()`"
+output:
+  html_document:
+    df_print: paged
+  pdf_document: default
+---
+
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(echo = TRUE, warning = FALSE, message = FALSE)
+```
+
+\medspace
+
+# Introduction
+
+The invest.gov data used for this analysis considers 288 private projects announced between January 29, 2021, to May 17, 2023, in five different industries. The period overlaps with President Biden’s current electoral term, which began on January 20, 2021, and continues until now. The dataset contains detailed information on the project’s investment amount (in millions), location, and expected number of jobs created. In international economic development, private investment is becoming increasingly essential to finance larger and longer-term public infrastructure to achieve the necessary scale and innovation quicker and more efficiently. Hence, this report will analyze how the Biden-Harris Administration and its vital energy and infrastructure laws facilitated private investments in the US to achieve national security and economic goals.
+
+# Preliminary Findings
+
+This analysis will focus on interpreting the impact of the Biden-Harris Administration’s key policies that generated over $503 billion in major domestic investments by private companies and created good-paying, high-quality jobs for Americans (The White House, 2023). The analysis attributes these monumental achievements to the transformative Bipartisan Infrastructure Law (BIL), CHIPS and Science Act (CHIPS+), and Inflation Reduction Act (IRA). According to the Department of Energy’s latest report modeling the economy-wide impacts of IRA and BIL, the enabled demand pull and supply push for clean energy could build more robust domestic industries that will further scale the already-historic levels of investments and employment generated with the passage of the bills. 
+
+This analysis will delve into the current investment trends and jobs created through the three major bills, looking at how the different incentives determined the industry prospects for clean energy transition, climate goals, and economic development. IRA provided “massive support for the lithium-ion battery (LiB) value chain for electric vehicles (EVs)” and the US downstream cell industry critical for battery economics (Mehdi & Moerenhout, 2023). In addition, as the bills support clean electricity generation through solar and wind, and hydrogen supply and use (The White House, 2023), in this analysis, it could be found that clean energy is one of the most popular investment industries. Lastly, CHIPS+ targets remedying US vulnerability in the global semiconductor supply chain and bolstering competitiveness and national security through domestic production and innovations. As the US currently produces only 12% of the world’s semiconductors, in addition to the $280B of public funding allocated, a significant amount of private investment would be required to reach the necessary economies of scale that would make US dominance feasible (Badlam et al., 2022). 
+
+# Process
+
+Before proceeding with the data analysis using R, some data cleaning work was done to maintain consistency in data. All unavailable data was indicated as “N/A,” the states were labeled as two-word abbreviations. For the address/place that was identified as Statewide, since it was unclear which state the data was referring to, the specific states that the private investment is located in was confirmed and edited via the source. Similarly, some cells with multiple states were changed to “Multistate,” and those with missing state information were filled.
+
+For analysis, the primary variables of interest were the investment amount, jobs created, announcement date, and location. The focus was comparing the investment amount and jobs announced by industry and date to learn how the bills facilitated private investment in the US clean energy transition and economic development. First, the data was grouped by industry to examine whether there is a significant trend in how private investments shape industry growth. Then, the specific trends in private investment were analyzed by organizing the data by date and location. Note that for all analyses, private investments with incomplete information were not included in the analysis due to the particular nature of R, which cannot work with null values.
+
+### Load libraries {-}
+
+```{r}
+library(ggplot2)
+library(tidyverse)
+library(sf)
+library(mapview)
+library(lubridate)
+library(dplyr)
+library(maps)
+
+data <- read.csv("data.csv")
+```
+
+```{r}
+data_clean <- data %>% 
+  mutate(Investment.num = as.numeric(Investment),
+         Jobs.num = as.numeric(Jobs))
+
+investment_sum <- data_clean %>% 
+  group_by(Industry) %>% 
+  summarize(Total = sum(Investment.num, na.rm = T))
+investment_sum
+
+investment_avg <- data_clean %>% 
+  group_by(Industry) %>% 
+  summarize(Average = mean(Investment.num, na.rm = T))
+investment_avg
+```
+
+According to the data available on the invest.gov, as of August 15, 2023, private companies have announced $503B in investments ($231B in semiconductors & electronics, $133B in EV & batteries, $103B in clean energy, $19B in biomanufacturing, and $14B in heavy industry). From the dataset, the total private investment was $479.17B. The industry with the most investment was semiconductors, as expected previously due to the sheer amount of scale needed for building giga-factories and equipping the manufacturing, R&D, workforce, and technology. The investments in EVs and the clean energy industry were significantly more significant than heavy industry and biomanufacturing.
+
+Further, the contrast between the companies investing the highest in EVs & Batteries while semiconductors having a larger investment amount could have to do with companies responding to the Advanced Manufacturing Investment Tax Credit (AMITC). Since the credit is equal to 25% of the qualified investment concerning any advanced manufacturing facility of an eligible taxpayer, where construction of such property begins before January 1, 2027, the companies are incentivized to devote higher amounts for developing the necessary infrastructure for semiconductor manufacturing. In addition, the bill provides grants to fund investments that require large economies of scale. However, only a few companies have available resources to commit such large investments. 
+
+```{r}
+data %>% 
+  ggplot(aes(x = Industry, fill = Industry)) +
+  geom_bar() +
+  geom_text(aes(label = after_stat(count)), stat = "count", vjust = 1.5, colour = "white") +
+  ggtitle("Number of Companies by Inudstry") +
+  ylab("Number of Companies") +
+  theme(axis.title.x=element_blank(),
+        axis.text.x=element_blank(),
+        axis.ticks.x=element_blank(),
+        panel.grid.major = element_blank(), panel.grid.minor = element_blank(),
+        panel.background = element_blank(), axis.line = element_line(colour = "black"))
+```
+
+Hence, the companies invested the most in clean energy, biomanufacturing, and semiconductors (Figure A1). When observing the top ten companies with the largest investment amount and the bottom ten with the smallest amount, it is evident that more companies enter industries with barriers to entry lower than semiconductors. Hence, biomanufacturing and heavy industry have, on average, smaller investments but more companies.
+
+```{r}
+jobs_created_by_state <- data_clean %>% 
+  group_by(State) %>% 
+  summarise(total_jobs = sum(Jobs.num, na.rm=T))
+jobs_created_by_state
+
+jobs_announced <- data_clean %>% 
+  group_by(Industry) %>% 
+  summarize(total = sum(Jobs.num, na.rm=T))
+jobs_announced
+```
+
+The industry that will create the most jobs is EVs & Batteries, with 102 private companies investing in the field, which coincides with the above result. Due to semiconductors requiring vertical production, despite having a small number of companies investing, semiconductor investments will create high-quality jobs. In total, over 220,000 jobs will be created in the US, which is equivalent to every American who could “raise a family in every state across the country” (The White House, 2023).
+
+```{r}
+data_clean$Announcement.Date <- mdy(data_clean$Announcement.Date)
+data_clean$date_formatted <- format(data_clean$Announcement.Date, "%Y/%m")
+
+data_clean$group = ifelse(data_clean$date_formatted < 2022/01, "2021/01-2021/11", ifelse(data_clean$date_formatted < 2023/01, "2022/01-2022/11", "2023/01-2023/05"))
+  ggplot(data_clean) + 
+  aes(x = date_formatted, fill=group) + 
+  geom_histogram(stat="count") +
+  scale_fill_manual(values = c("2021/01-2021/11" = "#559999",
+                               "2022/01-2022/11" = "cadetblue3",
+                               "2023/01-2023/05" = "deepskyblue2")) +
+  xlab("Date (by Month)") +
+  ylab("Number of Investments Announced") +
+  theme(axis.text.x = element_text(angle = 65, vjust = 1, hjust=1),
+        panel.grid.major = element_blank(), panel.grid.minor = element_blank(),
+        panel.background = element_blank(), axis.line = element_line(colour = "black"))
+```
+
+When arranged by announcement date, results show that the number of companies announcing investments peaked in October 2022, just one month after IRA and CHIPS+ were passed. This result implies how the two bills successfully generated record-level private investments in industries in dire need of growth and transformation. 
+
+```{r}
+data_clean_map <- data_clean %>% 
+  mutate(Lat.num = as.numeric(LAT),
+         Lon.num = as.numeric(LON)) %>% 
+  na.omit(data_clean)
+
+mapview(data_clean_map, xcol="Lon.num", ycol="Lat.num", crs=4326, grid = FALSE, zcol="Industry")
+mapview(data_clean_map, xcol="Lon.num", ycol="Lat.num", crs=4326, grid = FALSE, zcol="Industry", cex="Investment.num")
+```
+
+```{r results='hide'}
+states_map <- map_data("state")
+ggplot(states_map, aes(x = long, y = lat, group = group)) +
+  geom_polygon(fill = "white", colour = "black")
+Invmap <- read_csv("Investment.csv")
+```
+
+```{r}
+inv_map <- inner_join(states_map, Invmap, by = c("region"))
+ggplot(inv_map, aes(x = long, y = lat.x, group = group, fill = Total)) +
+  geom_polygon(colour = "black") +
+  coord_map("polyconic") +
+  guides(fill=guide_legend(title="Total Investment
+    ($ Millions)")) +
+  scale_fill_gradient2(low = "#559999", mid = "grey90", high = "#BB650B") +
+  theme_void()
+```
+
+```{r}
+Jobmap <- read_csv("Jobs.csv")
+job_map <- inner_join(states_map, Jobmap, by = c("region"))
+ggplot(job_map, aes(x = long, y = lat.x, group = group, fill = Jobs)) +
+  geom_polygon(colour = "black") +
+  coord_map("polyconic") +
+  guides(fill=guide_legend(title="Jobs Announced")) +
+  scale_fill_gradient2(low = "#559999", mid = "grey90", high = "#BB650B") +
+  theme_void()
+```
+
+A rising concern is that most of these companies invest in South and Eastern states (Figure B2). However, when grouped by the total amount of investment (Figure B3) and jobs created by the states (Figure B4), aside from Texas, which attracted the most significant level of investments, the investments are pretty well spread throughout the US. This possibly has to do with the administration’s goal to build a climate-ready nation and the federal-government wide investment, with a focus on revitalizing the historically underinvested communities. Further, since companies investing in semiconductors have greater capital and are primarily located in the West, the bill's effect should not be entirely unfair to penalize a few states (Figure B5). 
+
+```{r}
+jobs_created_by_date <- data_clean %>% 
+  group_by(date_formatted) %>% 
+  summarise(jobs_month = sum(Jobs.num, na.rm = T))
+ggplot(jobs_created_by_date) + 
+  aes(x = date_formatted, y=jobs_month, group = 1) + 
+  geom_line() +
+  theme(axis.text.x = element_text(angle = 65, vjust = 1, hjust=1),
+        panel.grid.major = element_blank(), panel.grid.minor = element_blank(),
+        panel.background = element_blank(), axis.line = element_line(colour = "black")) +
+  xlab("Date (by Month)") +
+  ylab("Number of Jobs Announced") +
+  geom_vline(aes(xintercept = "2021/11"), linetype = "dashed") + 
+  geom_vline(aes(xintercept = "2022/08"), linetype = "dashed") +
+  geom_text(aes(x="2021/11", label="\nBIL", y=30500), colour = "blue", angle = 90) +
+  geom_text(aes(x="2022/08", label="\nIRA, CHIPS+", y=29000), colour = "blue", angle = 90)
+```
+
+When arranged by month, it becomes clear that the companies were committed to creating more jobs soon after announcing the three bills. After the announcement of the BIL in November 2021, almost 30,000 jobs were announced in December by less than ten companies, which mostly has to do with Tesla announcing 20,000 jobs (The White House, 2021). It could be implied that the decision is driven chiefly by the BIL’s investment of $7.5M in building a national network of electric vehicle (EV) chargers (The White House, 2021). The second significant increase was in October 2022, less than two months after the passing of IRA and CHIPS+. Driven mainly by companies investing in semiconductors, due to the passing of CHIPS+ devoted to bolstering semiconductor production in the US, around 20 companies announced investments and jobs. A detailed look at the data shows that investments were made in semiconductors, EVs, and clean energy industries, aligning with IRA’s strong support for technologies that will equip the US to better meet the climate goals and navigate the geopolitical tensions that may deter the nation’s economic growth.
+
+# Conclusion
+
+The analysis of invest.gov data suggests that the Biden-Harris Administration and its passing of three key bills, BIL, IRA, and CHIPS+, successfully engaged significant private investments in public infrastructure projects and created well-paying, high-quality jobs. These findings will be better supported when, in the future, the data will exist to show whether the promised jobs were created and how the investments helped build a robust local economy, a national supply chain, and strong demand for clean energy. Even in its premature stage, it is no doubt that the bills generated the much-needed private investments to quickly scale the efforts towards a net zero future that is more equitable and just. The enabling environment created by historic levels of public investment seems well-ready for the influx of investments by private companies that also agree on the level of economic growth that could be unleashed through the significant level of investments.
+
+# Sources Cited
+
+The White House. (03 April 2023). “What They Are Reading in the States: President Biden’s Investing in America Agenda is Delivering for Americans”. The White House. Retrieved from: https://www.whitehouse.gov/briefing-room/statements-releases/2023/04/03/what-they-are-reading-in-the-states-president-bidens-investing-in-america-agenda-is-delivering-for-americans/ 
+
+U.S. Department of Energy. Investing In American Energy: Significant Impacts of the Inflation Reduction Act and Bipartisan Infrastructure Law on the U.S. Energy Economy and Emissions Reductions. U.S. Department of Energy. Retrieved from: https://www.energy.gov/policy/articles/investing-american-energy-significant-impacts-inflation-reduction-act-and 
+
+Mehdi, A. & Moerenhout, T. (08 June 2023). “The IRA and the US Battery Supply Chain: Background and Key Drivers”. Center on Global Energy Policy. Retrieved from:  https://www.energypolicy.columbia.edu/publications/the-ira-and-the-us-battery-supply-chain-background-and-key-drivers/ 
+
+Badlam, J. et al. (04 October 2022). “The CHIPS and Science Act: Here’s what’s in it”. McKinsey & Company. Retrieved from: https://www.mckinsey.com/industries/public-sector/our-insights/the-chips-and-science-act-heres-whats-in-it 
+
+The White House. (06 November 2021). “Fact Sheet: The Bipartisan Infrastructure Deal”. The White House. Retrieved from: https://www.whitehouse.gov/briefing-room/statements-releases/2021/11/06/fact-sheet-the-bipartisan-infrastructure-deal/

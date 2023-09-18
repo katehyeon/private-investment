@@ -1,0 +1,289 @@
+Company,Investment,Address,City,State,LAT,LON,Industry,Jobs,Announcement Date
+PSE&G,166,NJ,Statewide,Statewide,39.833851,-74.871826,EVs & Batteries,270,1/29/21
+Microvast,220,"Clarksville, TN",Clarksville,TN,36.5308,-87.3598,EVs & Batteries,287,2/1/21
+Biosimilar Solutions,200,"Aguadilla, PR",Aguadilla,PR,18.43,-67.1544,Biomanufacturing,328,2/3/21
+WEC Energy Group,426,"Milwaukee, WI",Milwaukee,WI,43.04181,-87.90684,Clean Energy,N/A,2/16/21
+WEC Energy Group,302,"Bourbon and Crawford Counties, KS",Bourbon and Crawford Counties,KS,38.2171,-94.9,Clean Energy,N/A,3/1/21
+Xcel Energy Inc.,1700,"Eastern Plains, CO",Eastern Plains,CO,38.635224,-103.2,Clean Energy,N/A,3/3/21
+Biogen,200,"Durham, NC",Durham,NC,35.9886,-78.9072,Biomanufacturing,90,3/4/21
+WEC Energy Group,446,"Rock & Walworth Counties, WI",Rock & Walworth Counties,WI,42.6252,-89.0179,Clean Energy,N/A,3/16/21
+Nucor,164,"Warsaw, KY",Warsaw,KY,38.7833,-84.8994,Heavy Industry,72,3/25/21
+Alliant Energy,1500,Statewide,Statewide,Statewide,44.7,-89.38,Clean Energy,N/A,3/31/21
+Ultium Cells,2500,Multi-state,Multi-state,Multi-state,41.242,-80.82,EVs & Batteries,5100,4/1/21
+Clearway Energy Group,280,"Mililani and Waiawa, HI",Mililani and Waiawa,HI,21.446031,-158.01129,Clean Energy,N/A,4/8/21
+Xcel Energy,575,"Becker, MN",Becker,MN,45.393641,-93.876542,Clean Energy,N/A,4/13/21
+Abzena ,213,"Sanford, NC",Sanford,NC,35.4788,-78.18054,Biomanufacturing,325,4/13/21
+WEC Energy Group,649,"Dane County, WI",Dane County,WI,43.0186,-89.5498,Clean Energy,N/A,4/30/21
+Intel,3500,"Rio Rancho, NM",Rio Rancho,NM,35.2861,-106.6706,Semiconductors & Electronics,700,5/3/21
+Lonza Biologics Inc,222,"Portsmouth, NH",Portsmouth,NH,43.0756,-70.7606,Biomanufacturing,N/A,5/6/21
+CARsgen Therapeutics,157,"Durham, NC",Durham,NC,35.9886,-78.9072,Biomanufacturing,200,5/20/21
+First Solar,865,"Toledo, OH",Toledo,OH,41.656555,-83.57426,Clean Energy,700,6/9/21
+Volvo,118,"Ridgeville, SC",Ridgeville,SC,33.0933,-80.3133,EVs & Batteries,N/A,6/16/21
+Dominion Energy,669,"TBD, VA",TBD,VA,38.00339,-79.42093,Clean Energy,N/A,6/22/21
+Orsted,735,Delmarva Region,Delmarva Region,DE,38.336502,-75.084908,Clean Energy,1400,7/7/21
+Materion,80,"Berks County, PA",Berks County,PA,40.3452,-75.9928,Heavy Industry,N/A,7/7/21
+Edison International,436,Southern California,Southern California,CA,34.169,-117.7847,EVs & Batteries,N/A,7/12/21
+Summit AG,350,"Phillipsburg, KS",Phillipsburg,KS,39.756121,-99.323985,Biomanufacturing,N/A,7/12/21
+Arconic ,100,"Maryville, TN",Maryville,TN,35.7497,-83.9758,Heavy Industry,200,7/13/21
+SK Siltron CSS,300,"Bay City, MI",Bay City,MI,43.581248,-83.883535,Semiconductors & Electronics,150,7/14/21
+GlobalFoundries,1000,"Saratoga County, NY",Saratoga County,NY,43.086711,-73.8667,Semiconductors & Electronics,1000,7/19/21
+Takeda,126,"Thousand Oaks, CA",Thousand Oaks,CA,34.18,-118.9,Biomanufacturing,N/A,7/22/21
+Cytiva / Pall Corp,600,TBD,TBD,TBD,N/A,N/A,Biomanufacturing,N/A,7/27/21
+KORE Power,1000,"Buckeye, AZ",Buckeye,AZ,33.370464,-112.583549,EVs & Batteries,3000,7/29/21
+BeiGene,700,"Hopewell, NJ",Hopewell,NJ,40.38,-74.76,Biomanufacturing,100,8/3/21
+Amgen,550,"Holly Springs, NC",Holly Springs,NC,35.65666,-78.8376,Biomanufacturing,355,8/3/21
+Novozymes,316,"Blair, NE",Blair,NE,41.544697,-96.13507,Biomanufacturing,80,8/12/21
+"Ford, SK Innovation",5800,"Glendale, KY",Glendale,KY,37.601727,-85.905519,EVs & Batteries,5000,9/1/21
+"Ford, SK Innovation",5600,"Stanton, TN",Stanton,TN,35.461101,-89.400497,EVs & Batteries,6000,9/1/21
+Linde,600,"Phoenix, AZ",Phoenix,AZ,33.4484,-112.0667,Semiconductors & Electronics,N/A,9/8/21
+Thermo Fisher ,154,"Greenville, NC",Greenville,NC,35.6017,-77.3725,Biomanufacturing,290,9/14/21
+Eversource,250,Statewide; CT and MA,Statewide; CT and MA,Multi-state,41.748935,-72.653992,EVs & Batteries,N/A,9/30/21
+Prysmian,200,"Brayton Point, MA",Brayton Point,MA,41.7070465,-71.193935,Heavy Industry,250,10/7/21
+Bartlett,325,"Montgomery County, KS",Montgomery County,KS,37.0959081,-95.7652572,Biomanufacturing,50,10/12/21
+Catalent,230,"Harmans, MD",Harmans,MD,39.1599,-76.6988,Biomanufacturing,N/A,10/26/21
+GE Appliances,450,"Louisville, KY",Louisville,KY,38.188805,-85.67677,Heavy Industry,1000,10/28/21
+Toyota,461,"Georgetown, KY",Georgetown,KY,38.205334,-84.56237,EVs & Batteries,N/A,10/29/21
+Alliant Energy,750,"Linn County, IA",Linn County,IA,41.3333,-91.238,Clean Energy,N/A,11/2/21
+Dominion Energy,9800,"Virginia Beach, VA",Virginia Beach,VA,36.795669,-76.012628,Clean Energy,900,11/5/21
+Amgen ,365,"Columbus, OH",Columbus,OH,40.0515,-82.4615,Biomanufacturing,400,11/5/21
+Aurubis ,340,"Augusta, GA",Augusta,GA,33.4667,-81.9667,EVs & Batteries,125,11/10/21
+Toyota,313,"Putnam County, WV",Putnam County,WV,38.61716,-81.98197,EVs & Batteries,N/A,11/11/21
+List Biotherapeutics,125,"Fishers, IN",Fishers,IN,39.9561,-86.0128,Biomanufacturing,210,11/11/21
+Canoo,560,"Oklahoma City and Pryor, OK",Oklahoma City and Pryor,OK,35.4822,-97.535,EVs & Batteries,700,11/15/21
+Texas Instruments,30000,"Sherman, TX",Sherman,TX,33.6356,-96.609,Semiconductors & Electronics,3000,11/17/21
+TerraPower,2000,"Kemmerer, WY",Kemmerer,WY,41.7894,-110.5464,Clean Energy,2000,11/17/21
+Hydro Aluminum,150,"Cassopolis, MI",Cassopolis,MI,41.910013,-86.0101,Heavy Industry,67,11/18/21
+Samsung,17000,"Taylor, TX",Taylor,TX,30.93,-96.84,Semiconductors & Electronics,2000,11/24/21
+Thermo Fisher,105,"Lebanon, TN",Lebanon,TN,36.2131,-86.3065,Biomanufacturing,1400,11/24/21
+Tesla,10000,"Austin, TX",Austin,TX,30.26759,-97.74299,EVs & Batteries,20000,12/1/21
+Arrival,287,"Charlotte, NC",Charlotte,NC,35.20315,-80.8398,EVs & Batteries,620,12/6/21
+EMD Electronics,1000,TBD,TBD,TBD,N/A,N/A,Semiconductors & Electronics,140,12/7/21
+Siemens,250,"Charlotte, NC",Charlotte,NC,35.227085,-80.843124,Heavy Industry,500,12/7/21
+Sinova Global,150,"Tiptonville, TN",Tiptonville,TN,36.3775,-89.4761,EVs & Batteries,140,12/7/21
+Evolve Biologics ,200,"Sachse, TX",Sachse,TX,32.9764,-96.5861,Biomanufacturing,300,12/10/21
+Rivian,5000,"Madison, GA",Madison,GA,33.5881,-83.4725,EVs & Batteries,7500,12/16/21
+Arrowhead Pharmaceuticals,250,"Verona, WI",Verona,WI,42.987,-89.5786,Biomanufacturing,250,12/22/21
+GM and LG Energy,2600,"Lansing, MI",Lansing,MI,42.73194,-84.55225,EVs & Batteries,1700,1/1/22
+General Motors,154,"Lockport, NY",Lockport,NY,43.1689,-78.6968,EVs & Batteries,230,1/1/22
+Continuus Pharmaceuticals,125,"Woburn, MA",Woburn,MA,42.4791,-71.1518,Biomanufacturing,N/A,1/4/22
+U.S. Steel,3000,"Osceola, AR",Osceola,AR,35.710304,-89.97161,Heavy Industry,900,1/11/22
+MidAmerican Energy,3900,"TBD, IA",TBD,IA,41.59,-93.62,Clean Energy,1225,1/19/22
+DTE Energy,388,Southeast Michigan,Southeast Michigan,MI,41.903885,-84.055141,Clean Energy,N/A,1/19/22
+Berkshire Hathaway Energy,TBD,"Des Moines, IA",Des Moines,IA,41.5868,-93.625,Clean Energy,125,1/19/22
+Sunlit Chemical,100,"Phoenix, AZ",Phoenix,AZ,33.44277,-112.072754,Semiconductors & Electronics,N/A,1/20/22
+GM,4000,"Orion Township, MI",Orion Township,MI,42.7656,-83.2669,EVs & Batteries,2350,1/22/22
+GM,510,"Lansing, MI",Lansing,MI,42.7336,-84.5539,EVs & Batteries,N/A,1/22/22
+Boom Supersonic,500,"Greensboro, NC",Greensboro,NC,36.0744,-79.81155,Clean Energy,1761,1/26/22
+Eli Lilly,1000,"Concord, NC",Concord,NC,35.4087,-80.5792,Biomanufacturing,600,1/31/22
+"NextEra Energy, Inc.",650,Multi-state,Multi-state,Multi-state,N/A,N/A,EVs & Batteries,N/A,1/31/22
+Nissan,500,"Canton, MS",Canton,MS,32.6139,-90.0349,EVs & Batteries,N/A,2/1/22
+Hyperion,297,"Columbus, OH",Columbus,OH,39.982951,-82.990829,EVs & Batteries,700,2/2/22
+Black Hills Corporation,260,"TBD, WY",TBD,WY,41.14753,-104.7674,Clean Energy,N/A,2/15/22
+Syrah Technologies,224,"Vidalia, LA",Vidalia,LA,31.55,-91.62,EVs & Batteries,120,2/15/22
+Iberdrola,10000,"TBD, MA",TBD,MA,42.036921,-71.6835,Clean Energy,N/A,2/16/22
+Origin Materials,750,"Ascension Parish, LA",Ascension Parish,LA,30.20485,-90.869232,Biomanufacturing,850,2/16/22
+BestCo,177,"Mooresville, NC",Mooresville,NC,35.5844,-80.8203,Biomanufacturing,394,2/17/22
+Thermo Fisher,45,"Millersburg, PA",Millersburg,PA,40.5395,-76.9608,Biomanufacturing,N/A,2/21/22
+Evonik ,177,"Mobile, AL",Mobile,AL,30.6889,-88.0448,Biomanufacturing,N/A,2/23/22
+VinFast,4000,"Chatham County, NC",Chatham County,NC,35.7201,-79.23,EVs & Batteries,7500,3/1/22
+LG Energy,1700,"Holland, MI",Holland,MI,42.76595,-86.107006,EVs & Batteries,1200,3/1/22
+Edwards Vacuum,TBD,"Chandler, AZ",Chandler,AZ,33.345176,-112.49893,Semiconductors & Electronics,200,3/1/22
+HYM,280,"Revere, MA",Revere,MA,42.419106,-70.991922,Biomanufacturing,N/A,3/8/22
+United Safety Technology,350,"Baltimore County, MD",Baltimore County,MD,39.443167,-76.616569,Biomanufacturing,2000,3/17/22
+Scorpion Biological Services,650,"Manhattan, KS",Manhattan,KS,39.168,-96.8,Biomanufacturing,500,3/18/22
+LCY Chemical,100,"Casa Grande, AZ",Casa Grande,AZ,32.8795,-111.7476,Semiconductors & Electronics,57,3/23/22
+Curia,100,"Albuquerque, NM",Albuquerque,NM,35.018,-106.25,Biomanufacturing,274,3/25/22
+EnerVenue,264,"Shelby County, KY",Shelby County,KY,38.22,-85.21,EVs & Batteries,450,3/28/22
+Fujifilm,45,"New Castle, DE",New Castle,DE,39.662,-75.56,Heavy Industry,N/A,3/28/22
+Envision AESC,2000,"Bowling Green, KY",Bowling Green,KY,36.9817,-86.4444,EVs & Batteries,2000,4/1/22
+Enviva,250,"Bond, MS",Bond,MS,30.886,-89.168,Biomanufacturing,350,4/5/22
+Encina,1100,"Point Township, PA",Point Township,PA,40.9333,-76.7164,Heavy Industry,300,4/7/22
+Nucor,350,"Lexington, NC",Lexington,NC,35.8167,-80.2586,Heavy Industry,180,4/7/22
+Cleco,900,"Rapides Parish, LA",Rapides Parish,LA,31.327356,-92.430504,Heavy Industry,30,4/11/22
+Hyundai Motor Group,300,"Montgomery, AL",Montgomery,AL,32.3617,-86.2792,EVs & Batteries,200,4/12/22
+Statevolt,4000,"Imperial Valley, CA",Imperial Valley,CA,32.737547,-114.963301,EVs & Batteries,2500,4/19/22
+Toyota,222,"Huntsville, AL",Huntsville,AL,34.70143,-86.6597,EVs & Batteries,N/A,4/19/22
+Catalent,350,"Bloomington, IN",Bloomington,IN,39.1712,-86.53814,Biomanufacturing,N/A,4/21/22
+World Energy / Air Products,2000,"Paramount, CA",Paramount,CA,34.083794,-118.321014,Clean Energy,N/A,4/22/22
+Grand River Aseptic Manufacturing (GRAM),160,"Grand Rapids, MI",Grand Rapids,MI,42.9655,-85.6702,Biomanufacturing,N/A,4/28/22
+Stellantis and Samsung SDI,2500,"Kokomo, IN",Kokomo,IN,40.4822,-86.1317,EVs & Batteries,1400,5/1/22
+Novelis ,365,"Guthrie, KY",Guthrie,KY,36.648378,-87.166392,Heavy Industry,140,5/2/22
+Orion Engineered Carbons,120,"La Porte, TX",La Porte,TX,29.665784,-95.019373,Clean Energy,N/A,5/5/22
+SEMCORP,916,"Sidney, OH",Sidney,OH,40.33668,-84.204142,EVs & Batteries,1200,5/5/22
+PCI Pharma Services,100,"Bedford, NH",Bedford,NH,42.946329,-71.513201,Biomanufacturing,N/A,5/10/22
+NXP,2600,"Austin, TX",Austin,TX,30.265,-97.7466,Semiconductors & Electronics,800,5/11/22
+Catalent,175,"Winchester, KY",Winchester,KY,37.9947,-84.1842,Biomanufacturing,277,5/19/22
+Hyundai Motor Group,5540,"Pembroke, GA",Pembroke,GA,32.1358,-81.6226,EVs & Batteries,8100,5/20/22
+Eli Lilly,3700,"Boone County, IN",Boone County,IN,40.0522,-86.4717,Biomanufacturing,700,5/22/22
+SWEPCO,2200," OK, TX, and LA",,Multi-state,N/A,N/A,Clean Energy,N/A,5/31/22
+Ford,1500,"Avon Lake, OH",Avon Lake,OH,41.51,-82.0186,EVs & Batteries,1800,6/1/22
+Ford,100,"Lima, OH",Lima,OH,40.74184,-84.1161,EVs & Batteries,90,6/1/22
+Ford,95,"Kansas City, MO",Kansas City,MO,39.091919,-94.575719,EVs & Batteries,1100,6/1/22
+Yield Engineering Systems,TBD,"Chandler, AZ",Chandler,AZ,33.3062,-111.8413,Semiconductors & Electronics,N/A,6/1/22
+Ford,2000,MI,MI,MI,42.2814,-83.3864,EVs & Batteries,3200,6/2/22
+Evonik ,220,"Lafayette, IN",Lafayette,IN,40.4173,-86.8906,Biomanufacturing,80,6/2/22
+Arbor Renewable,800,"West Baton Rouge Parish, LA",West Baton Rouge Parish,LA,30.4751,-91.3276,Clean Energy,32,6/14/22
+USA Rare Earths,100,"Stillwater, OK",Stillwater,OK,36.1102,-97.0586,Clean Energy,100,6/22/22
+Georgia Power,7000,Statewide,Statewide,GA,31.9937,-83.746163,Clean Energy,N/A,6/24/22
+GlobalWafers,5000,"Sherman, TX",Sherman,TX,33.6356,-96.63173,Semiconductors & Electronics,1500,6/27/22
+PSE&G,511,Statewide,Statewide,NJ,39.983851,-74.671826,Clean Energy,N/A,6/29/22
+Absolics,600,"Covington, GA",Covington,GA,33.596,-83.8637,Semiconductors & Electronics,400,7/1/22
+Consumers Energy Corporation,170,"TBD, MI",TBD,MI,42.2373,-84.3957,Clean Energy,N/A,7/7/22
+Corning,139,"Rochester, NY",Rochester,NY,43.1656,-77.6114,Semiconductors & Electronics,270,7/8/22
+Croda International,58,"Lamar, PA",Lamar,PA,41.015,-77.531,Biomanufacturing,N/A,7/8/22
+Seagen,400,"Everett, WA",Everett,WA,47.9791,-122.1959,Biomanufacturing,200,7/11/22
+Panasonic Energy,4000,"De Soto, KS",De Soto,KS,38.965,-94.9622,EVs & Batteries,4000,7/13/22
+Kanto/Chemtrade,200,"Casa Grande, AZ",Casa Grande,AZ,32.8795,-111.7476,Semiconductors & Electronics,65,7/18/22
+SkyWater,1800,"West Lafayette, IN",West Lafayette,IN,40.452656,-86.916843,Semiconductors & Electronics,750,7/20/22
+Pfizer,470,"Pearl River, NY",Pearl River,NY,41.0639,-74.0103,Biomanufacturing,370,7/20/22
+BASF,780,"Ascension Parish, LA",Ascension Parish,LA,30.20485,-90.869232,Heavy Industry,37,7/22/22
+Redwood Materials,3500,"Reno, NV",Reno,NV,39.7,-119.6,EVs & Batteries,1500,7/25/22
+ALLETE,970,"Becker, MN",Becker,MN,46.937629,-95.741757,Clean Energy,N/A,7/25/22
+Wacker,200,"Charleston, TN",Charleston,TN,35.2862,-84.7593,Clean Energy,200,7/28/22
+Ascend Elements,1000,"Hopkinsville, KY",Hopkinsville,KY,36.8547,-87.4889,EVs & Batteries,N/A,8/1/22
+Hydro ASA,51,"Cressona, PA",Cressona,PA,40.345,-76.192,Heavy Industry,N/A,8/3/22
+Mitsubishi Gas Chemicals,372,"TBD, OR",TBD,OR,44,-120.5,Semiconductors & Electronics,N/A,8/4/22
+Lotte Aluminum,239,"Elizabethtown, KY",Elizabethtown,KY,37.78,-85.963183,EVs & Batteries,120,8/4/22
+Onsemi,TBD,"Hudson, NH",Hudson,NH,42.45,-71.458,Semiconductors & Electronics,N/A,8/17/22
+Atom Power / SK Energy,100,TBD,TBD,TBD,N/A,N/A,EVs & Batteries,N/A,8/18/22
+Meyer Burger,TBD,"Goodyear, AZ",Goodyear,AZ,33.4353,-112.3577,Clean Energy,500,8/18/22
+DuPont,50,"Glasgow, DE",Glasgow,DE,39.61,-75.71,Semiconductors & Electronics,11,8/22/22
+Intel,20000,"Chandler, AZ",Chandler,AZ,32.95,-112.5,Semiconductors & Electronics,3000,8/23/22
+MDU Resources / Otter Tail Power,439,"Southeast, ND",Southeast,ND,47.650589,-100.437012,Clean Energy,N/A,8/23/22
+Honda and LG,4400,"Fayette County, OH",Fayette County,OH,39.547118,-83.461315,EVs & Batteries,2200,8/29/22
+GAF Energy,100,"Georgetown, TX",Georgetown,TX,30.6566666,-97.70849,Clean Energy,260,8/29/22
+Hankook Tire,1600,"Clarksville, TN",Clarksville,TN,36.3,-87.3,EVs & Batteries,1200,8/29/22
+Toyota,3800,"Liberty, NC",Liberty,NC,35.85151,-79.57121,EVs & Batteries,2100,8/31/22
+Convalt Energy,615,"Watertown, NY",Watertown,NY,44.29,-75.23,Clean Energy,N/A,8/31/22
+Bosch,200,"Anderson, SC",Anderson,SC,34.5144,-82.6489,Clean Energy,350,8/31/22
+GM,760,"Toledo, OH",Toledo,OH,41.6656,-83.5753,EVs & Batteries,N/A,9/1/22
+Piedmont Lithium,582,"Etowah, TN",Etowah,TN,35.3294,-84.5283,EVs & Batteries,120,9/1/22
+General Motors,491,"Marion, IN",Marion,IN,40.3206,-85.3808,EVs & Batteries,N/A,9/1/22
+Cypress Creek Renewables,216,"Kinney County, TX",Kinney County,TX,29.35408,-100.451,Clean Energy,N/A,9/6/22
+Corning,100,"Gilbert, AZ",Gilbert,AZ,33.295215,-111.53,Heavy Industry,250,9/6/22
+Hemlock Semiconductor,375,"Thomas Township, MI",Thomas Township,MI,43.43806,-84.10697,Semiconductors & Electronics,170,9/7/22
+OCI,1000,"Beaumont, TX",Beaumont,TX,30.08,-94.1267,Heavy Industry,80,9/8/22
+Wolfspeed,5000,"Pittsboro, NC",Pittsboro,NC,35.5201,-79.1733,Semiconductors & Electronics,1800,9/9/22
+Micron,15000,"Boise, ID",Boise,ID,43.6158,-116.2016,Semiconductors & Electronics,2000,9/12/22
+ASML,200,"Wilton, CT",Wilton,CT,41.3937,-73.4515,Semiconductors & Electronics,1000,9/12/22
+BHE Renewables,500,"Ravenswood, WV",Ravenswood,WV,38.951955,-81.761589,Clean Energy,N/A,9/13/22
+Koch / Compass Minerals,200,"Ogden, UT",Ogden,UT,41.63,-111.7,EVs & Batteries,N/A,9/14/22
+Gevo,1000,"Lake Preston, SD",Lake Preston,SD,44.361114,-97.375688,Clean Energy,90,9/15/22
+Competetive Power Ventures,3000,"Doddridge County, WV",Doddridge County,WV,39.26348,-80.701232,Clean Energy,1000,9/16/22
+Nucor,425,"Huger, SC",Huger,SC,33.09744,-79.80392,Heavy Industry,50,9/28/22
+Heritage Battery Recycling,TBD,"Eloy, AZ",Eloy,AZ,32.7559,-111.5548,EVs & Batteries,110,9/28/22
+Doral Renewables,250,"Abington Township, PA",Abington Township,PA,40.109744,-75.11486,Clean Energy,N/A,9/29/22
+Envision AESC,810,"Florence, SC",Florence,SC,34.1839,-79.7742,EVs & Batteries,1170,10/1/22
+Honda,700,"Fayette County, OH",Fayette County,OH,39.547118,-83.461315,EVs & Batteries,300,10/1/22
+Bosch,260,"Charleston, SC",Charleston,SC,32.783062,-79.93444,EVs & Batteries,350,10/1/22
+Micron,20000,"Clay, NY",Clay,NY,43.1506,-76.1942,Semiconductors & Electronics,9000,10/4/22
+PNM Resources,344,Statewide,Statewide,NM,34.17144,-106.018066,Clean Energy,N/A,10/4/22
+Gotion,2400,"Big Rapids, MI",Big Rapids,MI,43.699463,-85.479659,EVs & Batteries,2350,10/5/22
+Our Next Energy,1600,"Detroit, MI",Detroit,MI,42.3329,-83.0478,EVs & Batteries,2112,10/5/22
+Microchip,800,"Gresham, OR",Gresham,OR,45.510185,-122.452385,Semiconductors & Electronics,600,10/5/22
+IBM,20000,"Hudson Valley, NY",Hudson Valley,NY,41.6711,-73.9069,Semiconductors & Electronics,N/A,10/6/22
+Pattern Energy & ConnectGen,500,"Essex Township and Salina Township, IL",Essex Township and Salina Township,IL,41.123634,-87.872742,Clean Energy,N/A,10/8/22
+Primergy,400,"Hesperus, CO",Hesperus,CO,37.286111,-108.039516,Clean Energy,N/A,10/10/22
+Cirba Solutions,200,"Lancaster, OH",Lancaster,OH,39.7193,-82.6053,EVs & Batteries,150,10/13/22
+Bocar ,176,"Huntsville, AL",Huntsville,AL,34.72954,-86.585304,EVs & Batteries,420,10/13/22
+Perrigo,170,"TBD, VT",TBD,VT,43.871,-72.45,Biomanufacturing,N/A,10/18/22
+BMW,1700,"Spartanburg, SC",Spartanburg,SC,34.9467,-81.9275,EVs & Batteries,300,10/19/22
+Novonix,1000,"Chattanooga, TN",Chattanooga,TN,35.0456,-85.2672,EVs & Batteries,1290,10/19/22
+Talon Metals,318,"Mercer County, ND",Mercer County,ND,46.80536,-100.77933,EVs & Batteries,150,10/19/22
+Koura,306,"St. Gabriel, LA",St. Gabriel,LA,30.257695,-91.099271,EVs & Batteries,80,10/19/22
+Sila Nanotechnologies,300,"Moses Lake, WA",Moses Lake,WA,47.1301417,-119.2780771,EVs & Batteries,300,10/19/22
+Anovion Battery Materials,294,"Sanborn, NY",Sanborn,NY,43.1318,-78.864,EVs & Batteries,300,10/19/22
+Group14 Technologies,223,"Moses Lake, WA",Moses Lake,WA,47.3,-119.43,EVs & Batteries,500,10/19/22
+ICL,203,"St. Louis, MO",St. Louis,MO,38.6531,-90.24346,EVs & Batteries,N/A,10/19/22
+Lilac Solutions,129,"Fernley, NV",Fernley,NV,39.507968,-119.251835,EVs & Batteries,250,10/19/22
+Chang Chun Group,300,"Casa Grande, AZ",Casa Grande,AZ,32.8795,-111.7476,Semiconductors & Electronics,209,10/20/22
+Magna ,500,"St. Clair, Highland Park, and Shelby Township, MI",St. Clair,MI,44.182205,-84.506836,EVs & Batteries,1200,10/25/22
+Portland General Electric,415,"Custer, Garfield, and Rosebud, MT",Custer,MT,46.79,-107.236,Clean Energy,N/A,10/25/22
+FirstEnergy,505,"TBD, NJ",TBD,NJ,39.69878,-74.52676,Clean Energy,N/A,10/27/22
+First Solar,270,"Perrysburg, OH",Perrysburg,OH,41.525652,-83.637712,Clean Energy,100,10/27/22
+Hyundai Mobis,205,"Montgomery, AL",Montgomery,AL,32.243799,-86.046037,EVs & Batteries,400,10/27/22
+LG Chem,3200,"Clarksville, TN",Clarksville,TN,36.5308,-87.3598,EVs & Batteries,850,11/1/22
+Solvay and Orbia,672,"Augusta, GA",Augusta,GA,33.38604,-82.09092,EVs & Batteries,100,11/3/22
+TPI Composites ,TBD,"Newton, IA",Newton,IA,41.7033,-93.0574,Clean Energy,700,11/3/22
+Sappi North America,418,"Skowhegan, ME",Skowhegan,ME,44.7681,-69.71443,Heavy Industry,N/A,11/10/22
+Edwards Vacuum,319,"Genesee County, NY",Genesee County,NY,42.998158,-78.184813,Semiconductors & Electronics,600,11/10/22
+Freyr Battery and Koch Industries ,2600,"Newnan, GA",Newnan,GA,33.3764,-84.7886,EVs & Batteries,723,11/11/22
+Joon Georgia,317,"Statesboro, GA",Statesboro,GA,32.44891,-81.78333,EVs & Batteries,630,11/12/22
+Archer Aviation,118,"Covington, GA",Covington,GA,33.544041,-83.855184,EVs & Batteries,1000,11/14/22
+First Solar,1100,"Moulton, AL",Moulton,AL,34.4823,-87.2856,Clean Energy,700,11/16/22
+Steel Dynamics,2500,"Columbus, MS",Columbus,MS,33.5,-88.4,Clean Energy,1000,11/17/22
+Enel,1200,TBD,TBD,TBD,35.0078,-97.0929,Clean Energy,1900,5/17/23
+Fujifilm Irvine,188,"Raleigh, NC",Raleigh,NC,35.7806,-78.6389,Biomanufacturing,N/A,11/22/22
+Hyundai Motor Group and SK,5000,"Bartow County, GA",Bartow County,GA,32.8811,-82.4722,EVs & Batteries,3500,11/28/22
+Hyundai Mobis,926,"Bryan County, GA",Bryan County,GA,31.97699,-81.46002,EVs & Batteries,1500,11/29/22
+Bayer,45,"Myerstown, PA",Myerstown,PA,40.3745,-76.3027,Biomanufacturing,N/A,12/1/22
+TSMC,28000,"Phoenix, AZ",Phoenix,AZ,33.8,-112.072754,Semiconductors & Electronics,4500,12/6/22
+American Battery Factory,1200,"Tucson, AZ",Tucson,AZ,32.222,-111.14,EVs & Batteries,1000,12/6/22
+Epitome Energy,418,"Grand Forks, ND",Grand Forks,ND,47.92,-97.12,Biomanufacturing,850,12/6/22
+Sion Power,341,"Tucson, AZ",Tucson,AZ,32.25346,-110.911789,EVs & Batteries,150,12/7/22
+AES and Air Products,4000,"Wilbarger County, Texas",Wilbarger County,TX,34.1463,-99.213973,Clean Energy,315,12/8/22
+Kontrolmatik Technologies,279,"Colleton County, SC",Colleton County,SC,32.835018,-80.655244,EVs & Batteries,579,12/8/22
+Sparkz,700,"Livermore, CA",Livermore,CA,37.680383,-121.772359,EVs & Batteries,800,12/12/22
+HIF Global,6000,"Matargorda County, TX",Matargorda County,TX,28.754719,-95.945424,Clean Energy,125,12/13/22
+Albemarle,226,"Kings Mountain, NC",Kings Mountain,NC,35.30315,-80.9398,EVs & Batteries,200,12/13/22
+Adion Solar,TBD,"Madison, GA",Madison,GA,33.5957,-83.4679,Clean Energy,N/A,12/13/22
+Redwood Materials,3500,"Camp Hall and Ridgeville, SC",Camp Hall and Ridgeville,SC,32.7831,-79.9344,EVs & Batteries,1500,12/14/22
+PPL Corporation,2100,"TBD, KY",TBD,KY,37.839333,-84.27002,Clean Energy,N/A,12/15/22
+CubicPV,1000,TBD,TBD,TBD,N/A,N/A,Clean Energy,1500,12/15/22
+Bunge,550,"Morristown, IN",Morristown,IN,39.667,-85.697,Biomanufacturing,70,12/15/22
+Abbott,536,"Bowling Green, OH",Bowling Green,OH,41.374908,-83.6504,Biomanufacturing,450,12/16/22
+Entegris,600,"Colorado Springs, CO",Colorado Springs,CO,38.87,-104.76,Semiconductors & Electronics,600,12/20/22
+Pfizer,870,"Kalamazoo, MI",Kalamazoo,MI,42.29,-85.5858,Biomanufacturing,550,12/21/22
+Form Energy,760,"Weirton, WV",Weirton,WV,40.4179,-80.5745,EVs & Batteries,750,12/22/22
+Texas Instruments,11000,"Lehi, UT",Lehi,UT,40.3879,-111.8492,Semiconductors & Electronics,1100,1/1/23
+EcoPlastic,205,"Bulloch County, GA",Bulloch County,GA,32.4031,-81.731638,EVs & Batteries,456,1/5/23
+Hanwha Qcells,2500,"Dalton and Catersville, GA",Dalton and Catersville,GA,34.188007,-84.79215,Clean Energy,2500,1/12/23
+RI Energy ,529,Statewide,Statewide,RI,41.742325,-71.742332,Clean Energy,N/A,1/13/23
+Analog Devices,1000,"Beaverton, OR",Beaverton,OR,45.4869,-122.804,Semiconductors & Electronics,280,1/16/23
+IonQ,1000,"Bothell, WA",Bothell,WA,47.76009,-122.20544,Semiconductors & Electronics,N/A,1/20/23
+Intel,20000,"Licking County, OH",Licking County,OH,40.0786,-82.8206,Semiconductors & Electronics,3000,1/23/23
+Corvus Energy,TBD,"Bellingham, WA",Bellingham,WA,48.7519,-122.4787,EVs & Batteries,40,1/23/23
+Tesla,3600,"Sparks, Nevada",Sparks,NV,39.57536,-119.715443,EVs & Batteries,3000,1/24/23
+Agilent,725,"TBD, CO",TBD,CO,39.113,-105.3589,Biomanufacturing,N/A,1/26/23
+LioChem,104,"Simpson County, KY",Simpson County,KY,36.740937,-86.581793,EVs & Batteries,140,1/26/23
+General Motors and Lithium Americas,650,"Humboldt County, NV",Humboldt County,NV,41.2,-118.17,EVs & Batteries,1500,1/31/23
+Western Digital,350,"Fremont, CA",Fremont,CA,37.5483,-121.9886,Semiconductors & Electronics,240,1/31/23
+Integra Technologies,1800,"Wichita, KS",Wichita,KS,37.681045,-97.461054,Semiconductors & Electronics,2000,2/2/23
+Genentech,450,"Oceanside, CA",Oceanside,CA,33.2,-117.3,Biomanufacturing,150,2/12/23
+Ford,3500,"Marshall, MI",Marshall,MI,42.2609,-84.9574,EVs & Batteries,2500,2/13/23
+EdgeEnergy,150,"Cincinnati, OH",Cincinnati,OH,39.196927,-84.544187,EVs & Batteries,30,2/15/23
+Microchip,880,"Colorado Springs, CO",Colorado Springs,CO,38.5,-104.6,Semiconductors & Electronics,400,2/17/23
+EMP Shield,1900,"Burlington, KS",Burlington,KS,38.23645,-95.729137,Semiconductors & Electronics,1200,2/20/23
+Sewon America,300,"Effingham County, GA",Effingham County,GA,32.36168,-81.343372,EVs & Batteries,740,2/21/23
+Nucor,3100,"Point Pleasant, WV",Point Pleasant,WV,38.8575,-82.1286,Heavy Industry,800,2/23/23
+Li-Cycle,485,"Rochester, NY",Rochester,NY,43.197,-77.63,EVs & Batteries,270,2/27/23
+Stellantis,155,"Kokomo, IN",Kokomo,IN,40.4822,-86.25317,EVs & Batteries,265,2/28/23
+General Electric,450,Multi-state,Multi-state,Multi-state,N/A,N/A,Clean Energy,1700,3/3/23
+Amprius Technologies,190,"Denver, CO",Denver,CO,39.764339,-104.855111,EVs & Batteries,N/A,3/6/23
+Invenergy and LONGi,600,"Pataskala, OH",Pataskala,OH,40.011232,-82.705055,Clean Energy,850,3/13/23
+CMG Clean Tech,431,"Osceola County, FL",Osceola County,FL,27.995,-81.2593,Clean Energy,1200,3/19/23
+CS Wind,TBD,"Pueblo, CO",Pueblo,CO,38.170658,-104.489892,Clean Energy,850,3/21/23
+Constellation Energy,800,"Braidwood and Byron, IL",Braidwood and Byron,IL,41.448474,-87.978456,Clean Energy,N/A,3/22/23
+Cirba Solutions,300,"Columbia, SC",Columbia,SC,34.037509,-80.937565,EVs & Batteries,300,3/22/23
+Entek,1500,"Terre Haute, IN",Terre Haute,IN,39.465053,-87.373319,EVs & Batteries,640,3/23/23
+Albemarle,1300,"Chester County, SC",Chester County,SC,34.682744,-81.173933,EVs & Batteries,300,3/23/23
+HAGA,147,"Bartow County, GA",Bartow County,GA,32.8811,-82.2722,Clean Energy,160,3/23/23
+LG Energy,5500,"Queen Creek, AZ",Queen Creek,AZ,33.223582,-111.60746,EVs & Batteries,N/A,3/24/23
+Cummins,452,"Jamestown, NY",Jamestown,NY,42.101,-79.238,Clean Energy,N/A,3/27/23
+Microvast,504,"Hopkinsville, KY",Hopkinsville,KY,36.892059,-87.492986,EVs & Batteries,560,3/30/23
+Adams Fork Energy/CNX,TBD,"Mingo County, WV",Mingo County,WV,37.72116,-82.159,Clean Energy,N/A,4/3/23
+Scout Motors,2000,"Columbia, South Carolina",Columbia,SC,34.029095,-80.898037,EVs & Batteries,4000,4/4/23
+ABB,170,"New Berlin, WI",New Berlin,WI,43.018368,-88.30424,Clean Energy,450,4/4/23
+EMD Electronics,328,"Hometown, PA",Hometown,PA,40.345,-76.1,Semiconductors & Electronics,N/A,4/12/23
+Roseburg Forest Products,700,"Douglas and Coos Counties, OR",Douglas and Coos Counties,OR,43.286328,-123.154476,Biomanufacturing,120,4/14/23
+6K Energy,200,"Madison County, TN",Madison County,TN,35.606056,-88.833424,EVs & Batteries,230,4/18/23
+GM and Samsung SDI,3000,TBD,TBD,TBD,N/A,N/A,EVs & Batteries,N/A,4/25/23
+Bosch,1500,"Roseville, CA",Roseville,CA,39.062032,-120.722718,Semiconductors & Electronics,N/A,4/26/23
+GM,200,"Auburn Hills, MI",Auburn Hills,MI,42.660452,-83.38421,EVs & Batteries,1000,4/28/23
+Nel Hydrogen,400,"TBD, MI",TBD,MI,N/A,N/A,Clean Energy,500,5/3/23
+JSW Steel,145,"Mingo Junction, Ohio",Mingo Junction,OH,40.399384,-80.763527,Heavy Industry,N/A,5/3/23
+Verbio,230,"South Bend, IN",South Bend,IN,41.6764,-86.252,Biomanufacturing,N/A,5/1/23
+Port of Long Beach,4700,"Long Beach, CA",Long Beach,CA,33.7701,-118.1937,Clean Energy,N/A,5/9/23
+Renewable IPP,TBD,"TBD, AK",TBD,AK,61.5826,-149.321,Clean Energy,N/A,8/16/22
+Anovion  ,800,"TBD, GA",TBD,GA,31.5785,-84.1557,EVs & Batteries,400,5/15/23
+Re:Build Manufacturing,81,"New Kensington, PA",New Kensington,PA,40.568,-79.77,Clean Energy,300,5/1/23

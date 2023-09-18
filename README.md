@@ -1,0 +1,2 @@
+# private-investment-us
+This is an analysis of the invest.gov data that summarizes the impact of the three landmark bills (IRA, CHIPS+, BIL) that catalyzed private investments in clean energy transition.
